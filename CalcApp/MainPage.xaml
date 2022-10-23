@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Setting page config, UI design imported from resource/drawable -->
+    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalcApp.MainPage"
+             BackgroundImageSource="enddesign.png">
+
+
+    <Grid>
+        <!-- Result display frame -->
+        <Frame BackgroundColor="#" Margin="17,72,18,450" Padding="70">
+            <Label x:Name="CalcResult" FontFamily="gameboy.ttf#gameboy regular"  BackgroundColor="#none" Text="0" FontSize="36" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="End"> 
+               </Label>
+            </Frame>
+        <!-- Layout for bottom row -->
+        <StackLayout Margin="26,0,0,38" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="15">
+            <!-- Button Zero -->
+            <Button x:Name="BtnZero" Text ="0"  TextColor="#none"  BackgroundColor="#none" CornerRadius="20" WidthRequest="160" HeightRequest="50" HorizontalOptions="Start" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Dot -->
+            <Button x:Name="BtnDot" Text ="."  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnDot_Clicked">
+            </Button>
+            <!-- Button Equals -->
+            <Button x:Name="BtnEquals" Text="=" TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnEquals_Clicked">
+            </Button>
+        </StackLayout>
+        <!-- Layout for second row -->
+        <StackLayout Margin="30,0,0,113" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="15">
+            <!-- Button One -->
+            <Button x:Name="BtnOne" Text ="1"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Two -->
+            <Button x:Name="BtnTwo" Text ="2"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Three -->
+            <Button x:Name="BtnThree" Text ="3"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Addition -->
+            <Button x:Name="BtnAdd" Text="+" TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommonOperation_Clicked">
+            </Button>
+        </StackLayout>
+        <!-- Layout for third row -->
+        <StackLayout Margin="30,0,0,188" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="15">
+            <!-- Button Four -->
+            <Button x:Name="BtnFour" Text ="4"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Five -->
+            <Button x:Name="BtnFive" Text ="5"   TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Six -->
+            <Button x:Name="BtnSix" Text ="6"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Subtraction -->
+            <Button x:Name="BtnSub" Text="-"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" Clicked="BtnCommonOperation_Clicked">
+            </Button>
+        </StackLayout>
+        <!-- Layout for fourth row -->
+        <StackLayout Margin="30,0,0,266" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="15">
+            <!-- Button Seven -->
+            <Button x:Name="BtnSeven" Text ="7"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Eight -->
+            <Button x:Name="BtnEight" Text ="8"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Nine -->
+            <Button x:Name="BtnNine" Text ="9"  TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnCommon_Clicked">
+            </Button>
+            <!-- Button Multiply -->
+            <Button x:Name="BtnMult" Text="*" TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnCommonOperation_Clicked">
+            </Button>
+        </StackLayout>
+        <!-- Layout for top row -->
+        <StackLayout Margin="30,0,0,343" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="15">
+            <!-- Button Clear -->
+            <Button x:Name="BtnAC" TextColor="#none"  BackgroundColor="#none" CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnAc_Clicked">
+            </Button>
+            <!-- Button Operation -->
+            <Button x:Name="BtnOP" TextColor="#none"  BackgroundColor="#none"  CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnOp_Clicked">
+            </Button>
+            <!-- Button Percentage -->
+            <Button x:Name="BtnCent"  BackgroundColor="#none"  CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnCent_Clicked">
+            </Button>
+            <!-- Button Division -->
+            <Button x:Name="BtnDiv" Text="/" TextColor="#none"  BackgroundColor="#none"  CornerRadius="35" WidthRequest="70" HeightRequest="70" HorizontalOptions="Start" Clicked="BtnCommonOperation_Clicked">
+            </Button>
+        </StackLayout>
+        <!-- Layout for dark mode button -->
+        <StackLayout Margin="5,0,0,565" VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="37" Padding="20">
+            <!-- Button Dark Mode -->
+            <Button x:Name="BtnDm" BackgroundColor="#none" CornerRadius="20" WidthRequest="40" HeightRequest="40" Clicked="BtnDm_Clicked">
+            </Button>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

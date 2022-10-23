@@ -1,0 +1,15 @@
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\bin\Debug\netstandard2.0\CalcApp.deps.json
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\bin\Debug\netstandard2.0\CalcApp.dll
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\bin\Debug\netstandard2.0\CalcApp.pdb
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.csproj.AssemblyReference.cache
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.AssemblyInfo.cs
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.dll
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\refint\CalcApp.dll
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\CalcApp.pdb
+C:\Users\david\Documents\Techtorium\Term 4\Project Calculator\CalcApp\CalcApp\obj\Debug\netstandard2.0\ref\CalcApp.dll

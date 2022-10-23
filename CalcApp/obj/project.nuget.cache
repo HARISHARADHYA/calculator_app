@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7JMS+ZBFe+g15lkoLP6q9ccF7eL6vAJXOHB9Lp1kW3ViJCOU93i3b2pBpeB7C7w+HBJlS6Hphgwg/yreI7mSSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\david\\Documents\\Techtorium\\Term 4\\Project Calculator\\CalcApp\\CalcApp\\CalcApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
