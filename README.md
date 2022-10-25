@@ -10,3 +10,17 @@ Development of mobile calculator application with the use of Xamarin.Forms and C
 
 #4 - Android Emulator or Android Phone for deployment
 
+# Calculator Functionalities
+
+#1 - Basic operations
+
+Adittion, Subtraction, Multiplication, Division, Percentage
+
+#2 - Other operators
+
+AC (Clear), change current operator (+/-), Calcualate (Equals)
+
+#3 - Extra functions
+
+Decimal button (.), Dark Mode toggle.
+
