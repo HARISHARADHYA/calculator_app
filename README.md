@@ -8,5 +8,5 @@ Development of mobile calculator application with the use of Xamarin.Forms and C
 
 #3 - Android SDK
 
-#4 - Android Emulator
+#4 - Android Emulator or Android Phone for deployment
 
