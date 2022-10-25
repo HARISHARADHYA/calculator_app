@@ -41,5 +41,7 @@ Dark Mode
 # Known Issues:
 
 #1 - There's currently no visual feedback when pressing the buttons
+
 #2 - Dark mode toggle may not work due to button placement
+
 #3 - Formula is not displayed
