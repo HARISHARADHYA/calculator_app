@@ -24,3 +24,22 @@ AC (Clear), change current operator (+/-), Calcualate (Equals)
 
 Decimal button (.), Dark Mode toggle.
 
+# Calculator visuals
+
+Xamarin.Forms Layout (buttons)
+
+![Screenshot_1666490216](https://user-images.githubusercontent.com/110004264/197669367-f839d651-71d4-44ca-a017-0c6b5404598a.png)
+
+Final Design (Made on photoshop inspired by the Gameboy handheld device)
+
+![enddesign](https://user-images.githubusercontent.com/110004264/197669495-0bb0a112-e439-4d40-8161-f590792fb850.png)
+
+Dark Mode
+
+![enddark](https://user-images.githubusercontent.com/110004264/197669558-95cdfccc-ef91-4a54-a84d-c2c52cb7d252.png)
+
+# Known Issues:
+
+#1 - There's currently no visual feedback when pressing the buttons
+#2 - Dark mode toggle may not work due to button placement
+#3 - Formula is not displayed
